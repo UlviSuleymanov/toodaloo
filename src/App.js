@@ -10,7 +10,7 @@ export default function App() {
     <BrowserRouter>
       <>
         <header>
-          <nav>
+          <nav className="nav">
             <NavLink to="/">Posts</NavLink>
             <NavLink to="/about">About</NavLink>
           </nav>

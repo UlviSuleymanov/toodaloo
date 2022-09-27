@@ -10,7 +10,8 @@
   align-items: center;
 }
 .App {
-  width: 800px;
+  margin: auto;
+  padding: auto;
 }
 .post {
   display: flex;
@@ -19,6 +20,7 @@
   margin-top: 15px;
   justify-content: space-between;
   align-items: center;
+  width: 800px;
 }
 
 .post-enter {
@@ -39,6 +41,7 @@
 .page_wrapper {
   margin: 15px 0px 10px 0px;
   display: flex;
+  justify-content: center;
 }
 .page {
   padding: 10px;
@@ -61,11 +64,12 @@ a {
   color: teal;
   padding-left: 10px;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
   .post {
     padding: 1rem;
     margin: 1rem;
     font-weight: 300;
+    width: 335px;
   }
   .page_wrapper {
     margin: auto;
